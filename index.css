@@ -1,0 +1,250 @@
+
+header{
+    background-image: url(gallery/header-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.navbar{
+    background: #ee5a5a;
+    position: fixed;
+    opacity:0.9;
+    z-index:900;
+    top: 0;
+    left: 0;
+    right: 0;
+
+}
+
+.nav-item{
+    margin-right: 30px;
+}
+
+.nav-item:hover{
+    border-bottom: 1px solid black;
+    transition: 0.2s;
+}
+
+.nav-link{
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.nav-btn{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: white;
+    background: coral;
+    opacity: 0.6;
+}
+
+.nav-btn:hover{
+    border: 1px solid black;
+}
+
+.banner-title{
+    margin-top: 70px;
+
+}
+
+.banner-title h1{
+    font-family: 'Varela Round', sans-serif;    font-weight: bold;
+    color: white;
+    font-size: 3.28992rem;
+    margin-bottom: 45px;
+
+}
+
+
+.banner-btn{
+    background: tomato;
+    color:white;
+    opacity: 0.6;
+    padding: 4px 25px;
+    margin-bottom: 50px;
+}
+
+.banner-btn:hover{
+    background: white;
+    border: 1px solid black;
+    transition: 0.3s;
+    opacity: 0.6;
+}
+
+.about-title h3{
+    font-family: 'Roboto', sans-serif;
+    color: tomato;
+    font-weight: bold;
+    margin-bottom: 2px;
+    margin-top: 70px;
+}
+
+.about-info{
+    font-family: 'Gowun Dodum', sans-serif;
+    font-size: 21px;
+    margin-bottom: 30px;
+}
+
+.about-box{
+    background: #ffcccc;
+    border-left: 6px solid tomato;
+    padding: 30px 60px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing:0.5px;
+    border-radius: 7px;
+}
+
+
+.apply-title{
+    font-family: 'Roboto', sans-serif;
+    color: tomato;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.apply-info{  
+    font-family: 'Gowun Dodum', sans-serif;
+    border-left: 6px solid tomato;
+    padding: 30px 60px;
+    background: #ffcccc;
+    border-radius: 7px;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.span{
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    color: tomato;
+    padding: 4px 30px;
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+.faq-title{
+    font-family: 'Abril Fatface', cursive;
+    color: black;
+    font-weight: 400;
+    padding: 0 25px;
+    margin-bottom: 20px;
+
+}
+.span1{
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    color: tomato;
+    padding: 0 20px;
+    margin-top: 50px;
+    font-size: 25px;
+
+}
+
+.testmonial-title{
+    font-family: 'Abril Fatface', cursive;
+    color: black;
+    font-weight: 400;
+    padding: 0 20px;
+
+}
+
+#faq{
+    background-image: url(gallery/faq-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%
+}
+
+
+.accordion-button h5{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.accordion-body{
+    background: #ffcccc;
+    font-family: 'Gowun Dodum', sans-serif;
+    font-weight: bold;
+}
+
+
+.clients{
+    background: #dee1ec;
+    padding: 20px ;
+    border-radius: 10px;
+    height: 300px;
+    box-shadow: 3px 4px 3px;
+    margin-bottom: 25px;
+}
+.clients-info{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: gray;
+    font-size: 17px;
+}
+
+.clients-name {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+
+footer{
+    background-image: url(gallery/footer-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer-info{
+    padding:20px 40px;
+    border-left: 7px solid tomato;
+    border-radius: 7px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.footer-info p{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size:25px;
+}
+
+form{
+    background: #ff8a5c;
+    padding: 20px 50px;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+
+label{
+    color:white;
+    padding: 4px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.footer-btn{
+    font-family: 'Roboto', sans-serif;
+    background: white;
+
+}
+
+.footer-btn:hover{
+    background-color: black;
+    color:white
+}
